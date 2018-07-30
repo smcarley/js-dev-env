@@ -1,8 +1,7 @@
 /* eslint-disable no-console */
 
 import jsf from 'json-schema-faker';
-//import {schema} from './testfile';
-import {schema} from './mockDataSchema';
+import {schema} from './mockDataSchema';  // eslint-disable-line import/no-unresolved
 import fs from 'fs';
 import chalk from 'chalk';
 
